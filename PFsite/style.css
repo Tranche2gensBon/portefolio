@@ -587,3 +587,7 @@ header {
 .contact-content:hover .contact-menu {
     max-height: 100px; 
 }
+
+.des{
+  font-size: 10px;
+}
