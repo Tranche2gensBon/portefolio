@@ -1,0 +1,290 @@
+html {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.simple-banner {
+    margin-top: -10px;
+    background: #35d0b1;
+    width: 100%;
+    text-align: center;
+    z-index: 99999;
+    position: relative;
+    display: block;
+}
+
+.simple-banner .simple-banner-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.header-haut {
+    color: #000000;
+    background-color: white;
+    text-align: center;
+    margin-top: -11px;
+    width: 100;
+}
+
+.header-centre {
+    margin: 0;
+    height: 90px;
+    display: flex;
+    font-size: 20pt;
+    color: #ffffff;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.perso {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline;
+
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    border-top: 1px solid #030303;
+    padding: 5px 15px 5px 15px;
+    background: #ffffff;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+ul {
+    display: flex;
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 10px;
+    color: black;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.apercu {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+
+}
+
+.apercu-content {
+    width: 1000px;
+    margin: auto;
+}
+
+.main {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+
+}
+
+.chapeau {
+    width: 900px;
+    padding-top: 20px;
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 180%;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #35d0b1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logoturq {
+    margin-right: 20px;
+}
+
+.footer-content {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.button:hover {
+    background-color: #35d0b1;
+}
+
+
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.wrapper>div {
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 1em;
+    color: #000000;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 3/ 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3/ 4;
+    grid-row: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #35d0b1;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #269c85;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bodyproch {
+    background-color: #35d0b1;
+    color: black;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0px;
+}
+
+.headerproch {
+    text-align: center;
+    padding: 20px;
+}
+
+.mainproch {
+    text-align: center;
+    padding: 20px;
+}
+
+.footerproch {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.imgLT {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.annee {
+    margin: 0;
+}
+
+.arttitre{
+    margin: 0px;
+}
+
+.avis>img{
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.avis{
+    padding-top: 30px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.avis-content{
+    font-size: 13px;
+}
+
+.rotation:hover {
+    transform: scale(1.3) rotate(-5deg);
+    transition: all 0.3s;
+}
+
